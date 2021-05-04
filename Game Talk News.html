@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/Stylesheet.css" type="text/css" />
+    <link rel="stylesheet" herf="CSS/BM style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Gaming News</title>
+  </head>
+  <body>
+
+    <div class="Container">
+    <div></div>
+    <img class="Title" src="Pictures/GAME TALK.png" alt="Game Talk">
+    <div class="pageTitle"> NEWS </div>
+    </div>
+
+    <div id="mainbox" onclick="openFunction()">&#9776;</div>
+    <div id="menu" class="sidemenu">
+    <a href="Game Talk Home Page.html"> Home </a>
+    <a href="Game Talk News.html"> Gaming News </a>
+    <a href="Game Talk About.html"> About Us </a>
+    <a href="#" class="closebtn" onclick="closeFunction()"> &times; </a>
+    </div>
+
+    <script type="text/javascript">
+
+      function openFunction() {
+        document.getElementById("menu").style.width="300px";
+        document.getElementById("mainbox").style.marginLeft="300px";
+      }
+      function closeFunction() {
+        document.getElementById("menu").style.width="0px";
+        document.getElementById("mainbox").style.marginLeft="0px";
+        document.getElementById("mainbox").innerHTML="&#9776;";
+      }
+
+    </script>
+
+
+    <section class="mainBody">
+      <div class="Conteiner4">
+        <h1 class="gameNews"> Top 10 Upcoming Games of 2021 </h1>
+
+        <p> In this year's upcoming productions, everyone will find something for themselves
+          because we will get a whole lot of different games, genre whise, this year, starting with Pokemon Snap where you will be able to take pictures of,
+          as the name suggests, Pokemons and ending with a Deathloop shooter with rougelike elements in which the time loop you're stuck in resets each day.
+          Below is a list of the top 10 upcoming productions in 2021.</p>
+
+        <ul>
+          <li> New Pokemon Snap Release date: April 30 </li>
+
+          <li> Returnal Release date: April 30 </li>
+
+          <li> Resident Evil Village Release date: May 7 </li>
+
+          <li> Assassin's Creed Valhalla: Wrath of the Druids Release date: May 13. </li>
+
+          <li> Mass Effect Legendary Edition Release date: May 14 </li>
+
+          <li> Knockout City Release date: May 21 </li>
+
+          <li> Ratchet and Clank: Rift Apart Release date: June 11 </li>
+
+          <li> Final Fantasy 7 Remake: Intergrade Release date: June 10 </li>
+
+          <li> Mario Golf Super Rush Release date: June 25 </li>
+
+          <li> Legend of Zelda: Skyward Sword HD Release date: July 16 </li>
+
+          <li> No More Heroes 3 Release date: Aug. 27 </li>
+
+          <li> Deathloop Release date: September 14 </li>
+
+          </ul>
+          <p>Click <a href="https://www.cnet.com/news/here-are-the-most-anticipated-games-of-2021/"> here </a> to find out more about the upcoming games of 2021.</p>
+
+  </body>
+</html>

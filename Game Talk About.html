@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title> About </title>
+    <link rel="stylesheet" href="CSS/Stylesheet.css" type="text/css" />
+    <link rel="stylesheet" herf="CSS/BM style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="Container">
+    <div></div>
+    <img class="Title" src="Pictures/GAME TALK.png" alt="Game Talk">
+    <div class="pageTitle"> About  </div>
+    </div>
+
+    <div id="mainbox" onclick="openFunction()">&#9776;</div>
+    <div id="menu" class="sidemenu">
+    <a href="Game Talk Home Page.html"> Home </a>
+    <a href="Game Talk News.html"> Gaming News </a>
+    <a href="Game Talk About.html"> About Us </a>
+    <a href="#" class="closebtn" onclick="closeFunction()"> &times; </a>
+    </div>
+
+    <script type="text/javascript">
+
+      function openFunction() {
+        document.getElementById("menu").style.width="300px";
+        document.getElementById("mainbox").style.marginLeft="300px";
+      }
+      function closeFunction() {
+        document.getElementById("menu").style.width="0px";
+        document.getElementById("mainbox").style.marginLeft="0px";
+        document.getElementById("mainbox").innerHTML="&#9776;";
+      }
+
+    </script>
+
+    <section class="mainBody">
+      <div class="Conteiner3">
+        <h1> About Us </h1>
+        <p> Game Talk is a passionate group of gamers dedicated to bringing you, our fellow players, the latest gaming news.
+          But that's not all, we also want to show you that games have the power to connect people as part of a shared
+          passion and how much fun there is in AAA productions and indie games.
+          Join us today to receive the latest information about upcoming productions, the latest equipment and us,
+          because Game Talk is not one person, Game Talk is You.</p>
+      </div>
+    </section>
+
+  </body>
+</html>

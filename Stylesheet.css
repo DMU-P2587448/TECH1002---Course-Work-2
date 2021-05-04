@@ -1,0 +1,145 @@
+body {
+  background-image: url("../Pictures/GT Background.png");
+background-repeat: : no-repeat;
+background-size: cover;
+}
+
+.Title {
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+  height: 75px;
+
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #760092;
+  
+}
+.Menu {
+  width: 25px;
+  height: 25px;
+margin-top: 20px;
+margin-left: 50px;
+transition: 1s ease;
+}
+.Menu {
+  background-color: #a200c9;
+}
+
+.pageTitle {
+  color: white;
+  margin-top: 15px;
+  font-size: 20pt;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Conteiner2 {
+  background-color: white;
+  opacity: 85%;
+  border: 1px solid gray;
+  max-width: 700px;
+  margin-top:32px;
+}
+.Conteiner1 {
+  background-color: white;
+  border: 1px solid gray;
+  width: 700px;
+  height: 50px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+.Conteiner3 {
+  background-color: white;
+  opacity: 85%;
+  border: 1px solid gray;
+  max-width: 700px;
+  margin-top: -66px;
+}
+.Conteiner4 {
+  background-color: white;
+  opacity: 85%;
+  border: 1px solid gray;
+  max-width: 700px;
+  margin-top: 259px;
+}
+p {
+  margin-left: 10px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 13pt;
+}
+h1 {
+  margin-left: 10px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 700;
+}
+.HOME {
+color: red;
+float:left;
+}
+li {
+  margin-right: 10px;
+  list-style: none;
+  font-family: 'Lato', 'Arial', sans-serif;
+  padding-top: 5px;
+}
+img. {
+  width: 50px;
+  height: 50px;
+}
+.gameNews {
+  margin-left: 35px;
+}
+body {
+  font-family: "Lato","Arial", sans-serif;
+  margin: 20px 40px;
+}
+#mainbox {
+  font-size: 24px;
+  cursor: pointer;
+transition: all 0.6s;
+}
+.sidemenu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: #222;
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x: hidden;
+  transition: all 0.5s;
+
+}
+.sidemenu a {
+  padding: 8px 8px 8px 64px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #999;
+  display: block;
+}
+.sidemenu a:hover {
+  color: white;
+}
+.sidemenu .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;
+
+}
