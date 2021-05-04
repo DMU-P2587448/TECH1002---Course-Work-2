@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title> Game Talk Home </title>
+    <link rel="stylesheet" href="CSS/Stylesheet.css" type="text/css" />
+    <link rel="stylesheet" herf="CSS/BM style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+<script href="script.js"></script>
+  <body>
+
+<div class="Container">
+<div></div>
+<img class="Title" src="Pictures/GAME TALK.png" alt="Game Talk">
+<div class="pageTitle"> HOME </div>
+</div>
+
+<div id="mainbox" onclick="openFunction()">&#9776;</div>
+<div id="menu" class="sidemenu">
+<a href="Game Talk Home Page.html"> Home </a>
+<a href="Game Talk News.html"> Gaming News </a>
+<a href="Game Talk About.html"> About Us </a>
+<a href="#" class="closebtn" onclick="closeFunction()"> &times; </a>
+</div>
+
+<script type="text/javascript">
+
+  function openFunction() {
+    document.getElementById("menu").style.width="300px";
+    document.getElementById("mainbox").style.marginLeft="300px";
+  }
+  function closeFunction() {
+    document.getElementById("menu").style.width="0px";
+    document.getElementById("mainbox").style.marginLeft="0px";
+    document.getElementById("mainbox").innerHTML="&#9776;";
+  }
+
+</script>
+
+<section class="mainBody">
+  <div class="Conteiner2">
+    <h1> WELCOME TO GAME TALK! </h1>
+    <p> Welcome to Game Talk! Here you will learn everything about games (current and future), gaming equipment (and what else could we talk about here?).
+      there will also be reviews, articles, gossip (who doesn't like it?), And a lot of laughter and fun!
+      After that, you will also learn a lot about us, about whom? About us, the creators of your favorite place in terms of counseling,
+      laughter and sometimes tears (these also happen). Don't be ashamed to share your adventures,
+      meetings and experiences related to the world of games!</p>
+  </div>
+  <div class="Conteiner1"> "Games connect, not divide." - Patryk "Rojo" Rojewski </div>
+</section>
+
+
+
+  </body>
+</html>
